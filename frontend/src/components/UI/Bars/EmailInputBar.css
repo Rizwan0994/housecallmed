@@ -1,0 +1,60 @@
+/* EmailInputBar.css */
+
+/* Common styles for both mobile and desktop */
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styles for larger screens (desktop) */
+  @media screen and (min-width: 601px) {
+    .container {
+      flex-direction: row;
+    }
+  
+    .bar-div-media{
+       display: flow-root !important;
+       margin: 10PX;
+      }
+   
+    .container .email-input {
+      flex: 1;
+      margin-right: 10px;
+      height: 40px;
+      width: 320px;
+    }
+  
+    .container .send-button {
+      background-color: #09a4d8;
+      height: 55px;
+      width: auto;
+      font-size: 12px;
+    }
+  }
+  
+  /* Styles for smaller screens (mobile) */
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; 
+    }
+  
+   
+    .container .email-input {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    .bar-div-media{
+        display: flow-root !important;
+        margin: 10px;
+      }
+
+      .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        margin-top: 35px !important;
+      }
+    .container .send-button {
+      background-color: #09a4d8;
+      width: 100%; 
+      font-size: 16px; 
+    }
+  }
+  

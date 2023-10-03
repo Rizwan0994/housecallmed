@@ -1,0 +1,75 @@
+
+.footer-style{
+    color: white !important;
+    background-color: #0d71b1 !important;
+    
+}
+.footer-linkContainer{
+    display: flex !important;
+    
+}
+.footer-links{
+    display: flex !important;
+    padding: 200px !important;
+    margin-left: 50px;
+    margin-right: 290px;
+    flex-direction: column !important;
+    padding: 2% !important;
+    padding-top: 5% !important;
+    
+}
+.footer-a {
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+    line-height: 180%;
+}
+.footer-typo-heading{
+  padding-right: 340px !important;
+  padding-left: 50px;
+  margin-top: 10px !important;
+  text-align: center !important;
+}
+.footer-typo-caption{
+   
+  padding-left: 50px;
+  margin-top: 10px !important;
+  text-align: justify;
+  text-justify: inter-word;
+  color: rgba(255, 255, 255, 0.5) !important;
+ 
+}
+
+.footer-bottom{
+    text-align: center;
+    padding: 1%;
+    background: #103365;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.footer-links-icon{
+    display: flex !important;
+    padding: 200px !important;
+    margin: 10px;
+    flex-direction: column !important;
+    padding: 2% !important;
+    padding-top: 5% !important;
+    color: white !important;
+    font-size: 100px !important;
+}
+
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    color: white !important;
+    height: 17px !important;
+   
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    color: white !important;
+}

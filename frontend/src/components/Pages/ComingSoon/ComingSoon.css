@@ -1,0 +1,60 @@
+/* ComingSoon.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: #0f1c49;
+  }
+  
+  /* Styles for larger screens (desktop) */
+  @media screen and (min-width: 601px) {
+    .container {
+      font-size: 18px; 
+    }
+  
+}
+  
+  /* Styles for smaller screens (mobile) */
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 16px;
+    }
+  
+    
+    .container h3 {
+      font-size: 24px; 
+    }
+  
+    .buttonMedia{
+        display: flex;
+    }
+    .container .subtitle2 {
+      text-align: center; 
+    }
+    .css-o69gx8-MuiCardMedia-root
+    {
+       
+        max-width: 200px !important;
+    }
+    .css-o69gx8-MuiCardMedia-root
+    {
+        object-fit: contain !important;
+        height: 200px !important;
+    }
+    .css-74i0q5-MuiTypography-root{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .css-xdmu94-MuiContainer-root {
+        padding-left: 0px !important;
+    }
+    .css-1ai8i9u-MuiPaper-root-MuiCard-root{
+        height: 165px;
+    }
+    
+  }
+  
